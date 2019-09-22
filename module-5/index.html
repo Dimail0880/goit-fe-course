@@ -8,11 +8,11 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap"
       rel="stylesheet"/>
     <title>Homework module-5</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
-  </head>
+    <link rel="stylesheet" href="./css/style.css" />
+      </head>
   <body>
-    <header class="menu-section">
+    <header class="menu-section clearfix">
       <h1 class="logo"><a href="#">Mart</a></h1>
       <div class="wrapper">
         <ul class="site-navigation clearfix">
@@ -25,14 +25,41 @@
         </ul>
       </div>
     </header>
+    <div class="slider">
+    
+        <ul class="slides">
+        <li class="slides-item">
+          <img class="slides-images" src="/img/slide.jpg" alt="">
+          <span class="slides-description"><h2 class="slides-description-head"> Affordable paris tours </h2> 
+          <p class="slides-description-caption"> CITY TOURS / TOUR TICKETS / TOUR GUIDES</p> </span>
+        </li>
+      </ul>
+      <button class="slider-ctrl slider-ctrl-prev"></button>
+      <button class="slider-ctrl slider-ctrl-next"></button>
+
+
+      <div class="slider-pagination">
+        <span class="slider-pagination-item"></span>
+        <span class="slider-pagination-active slider-pagination-active"></span>
+        <span class="slider-pagination-item"></span>
+      </div>
+
+
+    </div>
     <main class="container">
       <section class="gallery">
         <h2 class="gallery-title">New collection</h2>
         <ul class="featured-list clearfix">
           <li class="item">
-            <a class="good-card" href="#">
+            <a class="good-card clearfix" href="#">
               <div class="overlay">
-                <span class="overlay--icons"></span>
+                <span class="overlay--row">
+                  <ul class="overlay--list clearfix">
+                    <li class="overlay--heart"></li>
+                    <li class="overlay--strelki"></li>
+                    <li class="overlay--watch"></li>
+                  </ul>
+                </span>
                 <span class="overlay--cart">
                 add to cart</span>
               </div>
@@ -49,6 +76,17 @@
           </li>
           <li class="item">
             <a class="good-card" href="#">
+                <div class="overlay">
+                    <span class="overlay--row">
+                      <ul class="overlay--list clearfix">
+                        <li class="overlay--heart"></li>
+                        <li class="overlay--strelki"></li>
+                        <li class="overlay--watch"></li>
+                      </ul>
+                    </span>
+                    <span class="overlay--cart">
+                    add to cart</span>
+                  </div>
               <img
                 class="good"
                 src="./img/category-2.jpg"
@@ -62,6 +100,17 @@
           </li>
           <li class="item">
             <a class="good-card" href="#">
+                <div class="overlay">
+                    <span class="overlay--row">
+                      <ul class="overlay--list clearfix">
+                        <li class="overlay--heart"></li>
+                        <li class="overlay--strelki"></li>
+                        <li class="overlay--watch"></li>
+                      </ul>
+                    </span>
+                    <span class="overlay--cart">
+                    add to cart</span>
+                  </div>
               <img
                 class="good"
                 src="./img/category-3.jpg"
@@ -75,6 +124,17 @@
           </li>
           <li class="item">
             <a class="good-card" href="#">
+                <div class="overlay">
+                    <span class="overlay--row">
+                      <ul class="overlay--list clearfix">
+                        <li class="overlay--heart"></li>
+                        <li class="overlay--strelki"></li>
+                        <li class="overlay--watch"></li>
+                      </ul>
+                    </span>
+                    <span class="overlay--cart">
+                    add to cart</span>
+                  </div>
               <img
                 class="good"
                 src="./img/category-4.jpg"
@@ -86,9 +146,19 @@
               <p class="price">25$</p>
             </a>
           </li>
-         
-        </ul>
+         </ul>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footercontent">
+      <span class="advisory">All Rights Reserved © Dokan</span>
+      <span class="designer-info">Designed
+        <a class="designer-link" href="#">Themengraph</a></span>
+      </div>
+
+
+
+
+    </footer>
   </body>
 </html>

@@ -32,8 +32,7 @@ header {
   padding-bottom: 30px;
   width: auto;
   vertical-align: middle;
-  padding-left: 245px;
-  padding-right: 245px;
+  text-align: center;
 }
 .clearfix-box {
   clear: both;
@@ -114,7 +113,7 @@ a {
   display: block;
   height: 40px;
   width: 25px;
-  background-image: url(/icons/left.png);
+  background-image: url(../icons/left.png);
   color: rgb(255, 255, 255);
   position: absolute;
   background-repeat: no-repeat;
@@ -128,7 +127,7 @@ a {
   display: block;
   height: 40px;
   width: 25px;
-  background-image: url(/icons/right.png);
+  background-image: url(../icons/right.png);
   color: rgb(255, 255, 255);
   position: absolute;
   background-repeat: no-repeat;
@@ -337,8 +336,7 @@ a {
 .gallery {
   margin: 0 auto;
   margin-bottom: 80px;
-  padding-left: 245px;
-  padding-right: 245px;
+ text-align: center;
 }
 .blog-title::after,
 .gallery-title:after {

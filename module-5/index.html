@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <title>Homework module-5</title>
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
-      </head>
+  </head>
   <body>
-    <header class="menu-section clearfix">
+    <header class="menu-section clearfix container">
       <h1 class="logo"><a href="#">Mart</a></h1>
       <div class="wrapper">
         <ul class="site-navigation clearfix">
@@ -25,140 +26,116 @@
         </ul>
       </div>
     </header>
-    <div class="slider">
-    
-        <ul class="slides">
+    <div class="slider container">
+      <ul class="slides">
         <li class="slides-item">
-          <img class="slides-images" src="./img/slide.jpg" alt="">
-          <span class="slides-description"><h2 class="slides-description-head"> Affordable paris tours </h2> 
-          <p class="slides-description-caption"> CITY TOURS / TOUR TICKETS / TOUR GUIDES</p> </span>
+          <img class="slides-background-images" src="./img/slide.jpg" alt="" />
+          <span class="slides-description"
+            ><h2 class="slides-description-head">Affordable paris tours</h2>
+            <p class="slides-description-caption">
+              CITY TOURS / TOUR TICKETS / TOUR GUIDES
+            </p>
+          </span>
         </li>
       </ul>
       <button class="slider-ctrl slider-ctrl-prev"></button>
       <button class="slider-ctrl slider-ctrl-next"></button>
-
 
       <div class="slider-pagination">
         <span class="slider-pagination-item"></span>
         <span class="slider-pagination-active slider-pagination-active"></span>
         <span class="slider-pagination-item"></span>
       </div>
-
-
     </div>
     <main class="container">
-      <section class="gallery">
+      <section class="gallery container">
         <h2 class="gallery-title">New collection</h2>
         <ul class="featured-list clearfix">
           <li class="item">
-            <a class="good-card clearfix" href="#">
-              <div class="overlay">
-                <span class="overlay--row">
-                  <ul class="overlay--list clearfix">
-                    <li class="overlay--heart"></li>
-                    <li class="overlay--strelki"></li>
-                    <li class="overlay--watch"></li>
-                  </ul>
-                </span>
-                <span class="overlay--cart">
-                add to cart</span>
-              </div>
-              <img
-                class="good"
-                src="./img/category-1.jpg"
-                alt=""
-                width="255"
-                height="282"
-              />
-              <p class="name-of-good">name-of-good</p>
-              <p class="price">25$</p>
-            </a>
+            <div class="overlay">
+                <ul class="overlay--list clearfix">
+                  <li class="overlay-item"><button class="overlay-item-heart"></button></li>
+                  <li class="overlay-item"><button class="overlay-item-strelki"></button></li>
+                  <li class="overlay-item"><button class="overlay-item-watch"></button></li>
+                  <li class="overlay-item"><button class="overlay-item-cart">add to cart</button></li>
+                </ul>
+            </div>
+            <img
+              class="good"
+              src="./img/category-1.jpg"
+              alt=""
+              width="255"
+              height="282"
+            />
+            <p class="name-of-good">name-of-good</p>
+            <p class="price">25$</p>
           </li>
           <li class="item">
-            <a class="good-card" href="#">
-                <div class="overlay">
-                    <span class="overlay--row">
-                      <ul class="overlay--list clearfix">
-                        <li class="overlay--heart"></li>
-                        <li class="overlay--strelki"></li>
-                        <li class="overlay--watch"></li>
-                      </ul>
-                    </span>
-                    <span class="overlay--cart">
-                    add to cart</span>
-                  </div>
-              <img
-                class="good"
-                src="./img/category-2.jpg"
-                alt=""
-                width="255"
-                height="282"
-              />
-              <p class="name-of-good">name-of-good</p>
-              <p class="price">25$</p>
-            </a>
+            <div class="overlay">
+              <ul class="overlay--list clearfix">
+                <li class="overlay-item"><button class="overlay-item-heart"></button></li>
+                <li class="overlay-item"><button class="overlay-item-strelki"></button></li>
+                <li class="overlay-item"><button class="overlay-item-watch"></button></li>
+                <li class="overlay-item"><button class="overlay-item-cart">add to cart</button></li>
+              </ul>
+          </div>
+            <img
+              class="good"
+              src="./img/category-2.jpg"
+              alt=""
+              width="255"
+              height="282"
+            />
+            <p class="name-of-good">name-of-good</p>
+            <p class="price">25$</p>
           </li>
           <li class="item">
-            <a class="good-card" href="#">
-                <div class="overlay">
-                    <span class="overlay--row">
-                      <ul class="overlay--list clearfix">
-                        <li class="overlay--heart"></li>
-                        <li class="overlay--strelki"></li>
-                        <li class="overlay--watch"></li>
-                      </ul>
-                    </span>
-                    <span class="overlay--cart">
-                    add to cart</span>
-                  </div>
-              <img
-                class="good"
-                src="./img/category-3.jpg"
-                alt=""
-                width="255"
-                height="282"
-              />
-              <p class="name-of-good">name-of-good</p>
-              <p class="price">25$</p>
-            </a>
+            <div class="overlay">
+              <ul class="overlay--list clearfix">
+                <li class="overlay-item"><button class="overlay-item-heart"></button></li>
+                <li class="overlay-item"><button class="overlay-item-strelki"></button></li>
+                <li class="overlay-item"><button class="overlay-item-watch"></button></li>
+                <li class="overlay-item"><button class="overlay-item-cart">add to cart</button></li>
+              </ul>
+          </div>
+            <img
+              class="good"
+              src="./img/category-3.jpg"
+              alt=""
+              width="255"
+              height="282"
+            />
+            <p class="name-of-good">name-of-good</p>
+            <p class="price">25$</p>
           </li>
           <li class="item">
-            <a class="good-card" href="#">
-                <div class="overlay">
-                    <span class="overlay--row">
-                      <ul class="overlay--list clearfix">
-                        <li class="overlay--heart"></li>
-                        <li class="overlay--strelki"></li>
-                        <li class="overlay--watch"></li>
-                      </ul>
-                    </span>
-                    <span class="overlay--cart">
-                    add to cart</span>
-                  </div>
-              <img
-                class="good"
-                src="./img/category-4.jpg"
-                alt=""
-                width="255"
-                height="282"
-              />
-              <p class="name-of-good">name-of-good</p>
-              <p class="price">25$</p>
-            </a>
+            <div class="overlay">
+              <ul class="overlay--list clearfix">
+                <li class="overlay-item"><button class="overlay-item-heart"></button></li>
+                <li class="overlay-item"><button class="overlay-item-strelki"></button></li>
+                <li class="overlay-item"><button class="overlay-item-watch"></button></li>
+                <li class="overlay-item"><button class="overlay-item-cart">add to cart</button></li>
+              </ul>
+          </div>
+            <img
+              class="good"
+              src="./img/category-4.jpg"
+              alt=""
+              width="255"
+              height="282"
+            />
+            <p class="name-of-good">name-of-good</p>
+            <p class="price">25$</p>
           </li>
-         </ul>
+        </ul>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
       <div class="footercontent">
-      <span class="advisory">All Rights Reserved © Dokan</span>
-      <span class="designer-info">Designed
-        <a class="designer-link" href="#">Themengraph</a></span>
+        <p class="advisory">All Rights Reserved © Dokan</p>
+        <p class="designer-info"
+          >Designed <a class="designer-link" href="#">Themengraph</a></p>
       </div>
-
-
-
-
     </footer>
   </body>
 </html>

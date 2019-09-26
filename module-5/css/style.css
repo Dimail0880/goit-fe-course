@@ -78,12 +78,14 @@ a {
 
 .slider {
   position: relative;
-  width: 1600px;
+  width: 1110px;
   min-height: 600px;
   margin: 0;
   padding: 0;
 }
-
+.main{
+  width: 1110px;
+}
 .slider-ctrl {
   display: inline-block;
   background-color: rgba(26, 188, 156, 0.651);
@@ -426,7 +428,7 @@ a {
 
 .container {
   width: 1110px;
-  margin: 0 auto;
+  margin: 0;
 }
 .gallery {
   margin: 0 auto;
@@ -479,9 +481,6 @@ img {
 .wrapper {
   margin: 0;
   float: right;
-}
-.container {
-  margin: 0;
 }
 
 .item:nth-child(4n) {

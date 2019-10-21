@@ -6,6 +6,12 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+/* тут я "насильно" отключаю 
+подчеркивания ссылок, т.к. их почему-то перебивает bootstrap */
+a:hover{
+  text-decoration: none;
+  color: white;
+}
 *,
 *::before,
 *::after {
@@ -231,6 +237,7 @@ p{
   background-color: rgb(255, 255, 255);
   width: 284px;
   height: 44px;
+  text-decoration: none;
 }
 .partners-button:hover {
   background-color: rgb(255, 78, 80);

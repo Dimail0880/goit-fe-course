@@ -123,13 +123,13 @@ img {
   transform: scale(1.1);
   color: #fce38a;
 }
-.header-title-description {
+.header__title-description {
   font-size: 72px;
   font-family: "Kaushan Script";
   color: rgb(255, 255, 255);
   line-height: 1.2;
 }
-.header-title {
+.header__title {
   margin: 70px auto 120px;
   display: block;
   width: 820px;
@@ -142,7 +142,7 @@ img {
   text-align: center;
 }
 
-.header-button {
+.header__button {
   margin: auto;
   padding: 10px;
   font-size: 14px;
@@ -159,7 +159,7 @@ img {
   height: 44px;
   width: 160px;
 }
-.header-button:hover {
+.header__button:hover {
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
@@ -171,7 +171,7 @@ img {
 
 /* SERVICES */
 
-.services {
+.section__services {
   padding: 30px;
 }
 .section__title {
@@ -261,22 +261,22 @@ img {
   top: 0;
   background-size: contain;
 }
-.web-design::before {
+.services__item--web-design::before {
   background-image: url(../icons/COMPUTER.png);
 }
-.photography::before {
+.services__item--photography::before {
   background-image: url(../icons/IMAGE.png);
 }
-.creativity::before {
+.services__item--creativity::before {
   background-image: url(../icons/LINE.png);
 }
-.seo::before {
+.services__item--seo::before {
   background-image: url(../icons/ALARM.png);
 }
-.css-html::before {
+.services__item--css-html::before {
   background-image: url(../icons/HOME.png);
 }
-.digital::before {
+.services__item--digital::before {
   background-image: url(../icons/book.png);
 }
 

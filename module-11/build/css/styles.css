@@ -674,12 +674,15 @@ img {
 }
 
 .team__list-img {
+  width: 380px;
+  height: 470px;
   margin-bottom: 25px;
-  width: 100%;
   background-size: cover;
 }
 
 .team__list-box {
+  width: 380px;
+  height: 470px;
   position: relative;
 }
 

@@ -1,0 +1,43 @@
+.header__title-description {
+  font-size: 72px;
+  font-family: 'Kaushan Script';
+  color: $link-color;
+  line-height: 1.2;
+}
+
+.header__title {
+  margin: 70px auto 120px;
+  display: block;
+  width: 820px;
+  font-size: 150px;
+  font-family: $link-font;
+  color: $link-color;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 0.933;
+  text-align: center;
+}
+
+.header__button {
+  margin: auto;
+  padding: 10px;
+  font-size: 14px;
+  font-family: $link-font;
+  color: $link-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: $link-color;
+  background-color: #00000000;
+  height: 44px;
+  width: 160px;
+
+  &:hover {
+    transition: all 200ms linear;
+    background-color: $link-color;
+    color: $hover-color;
+  }
+}

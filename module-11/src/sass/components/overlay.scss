@@ -1,0 +1,23 @@
+.overlay {
+  display: none;
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  left: 0;
+  top: 0;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(242, 227, 145, 0.5) 0%,
+    rgba(234, 138, 137, 0.5) 100%
+  );
+  transition: all 200ms linear;
+
+  &:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 0px 0px #95e1d3;
+    transition: all 200ms linear;
+  }
+}

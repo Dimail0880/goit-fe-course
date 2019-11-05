@@ -1,0 +1,62 @@
+.socials {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 200ms linear;
+}
+
+.socials__item {
+  margin: 1px;
+}
+
+.socials__link {
+  display: block;
+  content: '';
+  width: 56px;
+  height: 56px;
+  /* color: #f38181; */
+  background-color: #fce38a;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position: relative;
+  text-align: center;
+}
+
+.socials__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  fill: $after-color;
+  
+  &:hover {
+    fill: $link-color;
+  }
+}
+
+
+.team__list-box:hover .overlay {
+  display: flex;
+  transition: all 200ms linear;
+}
+
+.team__list-box:hover .team__list-img,
+.overlay {
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0px 0px #95e1d3;
+  transition: all 200ms linear;
+}
+
+.socials__link:hover {
+  color: $link-color;
+  background-color: $after-color;
+  transition: all 200ms linear;
+}

@@ -1,0 +1,17 @@
+.team__member-name {
+  font-size: 14px;
+  font-family: $link-font;
+  color: $title-description-color;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team__member-position {
+  font-size: 15px;
+  font-family: $description-font;
+  color: $description-color;
+  font-style: italic;
+  line-height: 1.6;
+  text-align: center;
+}

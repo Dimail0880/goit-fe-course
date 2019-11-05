@@ -1,0 +1,16 @@
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.team__list-img {
+  margin-bottom: 25px;
+  width: 100%;
+  background-size: cover;
+}
+
+.team__list-box {
+  position: relative;
+}

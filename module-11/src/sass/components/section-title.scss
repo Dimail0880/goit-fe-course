@@ -1,0 +1,37 @@
+.section__title {
+  display: block;
+}
+
+.section__title-name {
+  margin: 0 auto;
+  font-size: 30px;
+  font-family: $link-font;
+  color: $title-description-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section__title-description {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 24px;
+  font-family: $section-title-font;
+  font-weight: 400;
+  color: $title-description-color;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section__title-name:after {
+  content: '';
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  background-color: $after-color;
+  width: 60px;
+  height: 3px;
+}

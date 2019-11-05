@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 200ms linear;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+h3,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-resolution: 192px), (min-resolution: 2dppx) {
+}

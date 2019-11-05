@@ -1,0 +1,14 @@
+.section__team {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.section__team:after {
+  position: absolute;
+  content: '';
+  right: 0;
+  bottom: -80px;
+  background-color: #777777;
+  width: 1200px;
+  height: 1px;
+}

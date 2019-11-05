@@ -1,0 +1,58 @@
+.services__item {
+  width: 300px;
+  margin-bottom: 100px;
+  position: relative;
+  padding-left: 60px;
+}
+
+.services__item-title {
+  font-size: 14px;
+  font-family: $link-font;
+  color: $title-description-color;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.services__item-description {
+  font-size: 15px;
+  font-family: $description-font;
+  color: $description-color;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.services__item:before {
+  content: '';
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: contain;
+}
+
+.services__item--web-design::before {
+  background-image: url(../icons/COMPUTER.png);
+}
+
+.services__item--photography::before {
+  background-image: url(../icons/IMAGE.png);
+}
+
+.services__item--creativity::before {
+  background-image: url(../icons/LINE.png);
+}
+
+.services__item--seo::before {
+  background-image: url(../icons/ALARM.png);
+}
+
+.services__item--css-html::before {
+  background-image: url(../icons/HOME.png);
+}
+
+.services__item--digital::before {
+  background-image: url(../icons/book.png);
+}

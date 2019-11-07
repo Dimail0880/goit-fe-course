@@ -63,10 +63,10 @@ function sprite() {
 }
 
 function images() {
-  return src(['src/images/**/*.{png,jpg,jpeg,svg}', '!src/images/icons/**/*'])
+  return src(['src/images/**/*.{png,jpg,jpeg,svg}', 'src/images/icons/**/*'])
     .pipe(
       imagemin([
-        imagemin.jpegtran({ progressive: true }),
+        // imagemin.jpegtran({ progressive: true }),
         imagemin.optipng({ optimizationLevel: 3 }),
         imagemin.svgo({
           plugins: [{ removeViewBox: false }, { cleanupIDs: false }],
@@ -92,7 +92,7 @@ function serve() {
   return server.init({
     server: 'build',
     notify: false,
-    open: false,
+    open: true,
     cors: true,
     ui: false,
     logPrefix: 'DevServer',

@@ -415,8 +415,7 @@ img {
 
 .header-wrapper {
   margin: 0 auto;
-  background-image: url(../img/main-backgroud.jpg);
-  background-color: #fff4b7;
+  background-image: url(../images/main-backgroud.jpg);
   background-repeat: no-repeat;
   height: 1000px;
   max-width: 1920px;
@@ -442,7 +441,7 @@ img {
   display: block;
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
-  color: #858686;
+  color: #ffffff;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -469,7 +468,7 @@ img {
 }
 
 .navigation-list__link {
-  color: #858686;
+  color: #ffffff;
   position: relative;
 }
 
@@ -501,7 +500,7 @@ img {
 .header__title-description {
   font-size: 72px;
   font-family: 'Kaushan Script';
-  color: #858686;
+  color: #ffffff;
   line-height: 1.2;
 }
 
@@ -511,7 +510,7 @@ img {
   width: 820px;
   font-size: 150px;
   font-family: "Montserrat", sans-serif;
-  color: #858686;
+  color: #ffffff;
   font-weight: 800;
   text-transform: uppercase;
   line-height: 0.933;
@@ -523,14 +522,14 @@ img {
   padding: 10px;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
-  color: #858686;
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
   border-style: solid;
   border-width: 3px;
-  border-color: #858686;
+  border-color: #ffffff;
   background-color: #00000000;
   height: 44px;
   width: 160px;
@@ -538,7 +537,7 @@ img {
 
 .header__button:hover {
   transition: all 200ms linear;
-  background-color: #858686;
+  background-color: #ffffff;
   color: #fce38a;
 }
 
@@ -628,27 +627,27 @@ img {
 }
 
 .services__item--web-design::before {
-  background-image: url(../icons/COMPUTER.png);
+  background-image: url(../images/icons/COMPUTER.png);
 }
 
 .services__item--photography::before {
-  background-image: url(../icons/IMAGE.png);
+  background-image: url(../images/icons/IMAGE.png);
 }
 
 .services__item--creativity::before {
-  background-image: url(../icons/LINE.png);
+  background-image: url(../images/icons/LINE.png);
 }
 
 .services__item--seo::before {
-  background-image: url(../icons/ALARM.png);
+  background-image: url(../images/icons/ALARM.png);
 }
 
 .services__item--css-html::before {
-  background-image: url(../icons/HOME.png);
+  background-image: url(../images/icons/HOME.png);
 }
 
 .services__item--digital::before {
-  background-image: url(../icons/book.png);
+  background-image: url(../images/icons/book.png);
 }
 
 .section__services {

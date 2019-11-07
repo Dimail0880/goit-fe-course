@@ -1,7 +1,7 @@
 .header__title-description {
   font-size: 72px;
   font-family: 'Kaushan Script';
-  color: $link-color;
+  color: $header-text-color;
   line-height: 1.2;
 }
 
@@ -11,7 +11,7 @@
   width: 820px;
   font-size: 150px;
   font-family: $link-font;
-  color: $link-color;
+  color: $header-text-color;
   font-weight: 800;
   text-transform: uppercase;
   line-height: 0.933;
@@ -23,21 +23,21 @@
   padding: 10px;
   font-size: 14px;
   font-family: $link-font;
-  color: $link-color;
+  color: $header-text-color;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
   border-style: solid;
   border-width: 3px;
-  border-color: $link-color;
+  border-color: $header-text-color;
   background-color: #00000000;
   height: 44px;
   width: 160px;
 
   &:hover {
     transition: all 200ms linear;
-    background-color: $link-color;
+    background-color: $header-text-color;
     color: $hover-color;
   }
 }

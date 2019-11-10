@@ -676,11 +676,10 @@ img {
   width: 380px;
   height: 470px;
   margin-bottom: 25px;
-  background-size: cover;
 }
 
 .team__list-box {
-  width: 380px;
+  min-width: 380px;
   height: 470px;
   position: relative;
 }
@@ -750,6 +749,10 @@ img {
   text-align: center;
 }
 
+.socials__link:hover .socials__icon {
+  fill: #ffffff;
+}
+
 .socials__icon {
   position: absolute;
   top: 50%;
@@ -759,10 +762,6 @@ img {
   width: 25px;
   height: 25px;
   fill: #f38181;
-}
-
-.socials__icon:hover {
-  fill: #858686;
 }
 
 .team__list-box:hover .overlay {

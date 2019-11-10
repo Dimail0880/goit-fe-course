@@ -23,6 +23,10 @@
   background-position: 50% 50%;
   position: relative;
   text-align: center;
+
+  &:hover .socials__icon{
+    fill: $header-text-color;
+  }
 }
 
 .socials__icon {
@@ -37,9 +41,7 @@
   height: 25px;
   fill: $after-color;
   
-  &:hover {
-    fill: $link-color;
-  }
+ 
 }
 
 
